@@ -1,0 +1,10 @@
+/* reset do CSS do user agent (padrao de cada dispositivo) */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh; /* esticar body ocupando a altura de toda a tela */
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+}
