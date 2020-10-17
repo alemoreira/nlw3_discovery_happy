@@ -4,14 +4,25 @@
   padding: 0;
 }
 
+/* root element */
+:root {
+  font-size: 62.5%; /* 10px */
+}
+
 body {
   height: 100vh; /* esticar body ocupando a altura de toda a tela */
   color: white;
 }
 
-body, input, button, textarea {
-  font-size: 18px;
-  font-family: 'Nunito', sans-serif;
+body,
+input,
+button,
+textarea {
+  font-size: 1.8rem;
+  font-family: "Nunito", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  /* font: 400 1.8rem/1 "Nunito", sans-serif; */
 }
 
 #page-landing {
