@@ -6,5 +6,16 @@
 
 body {
   height: 100vh; /* esticar body ocupando a altura de toda a tela */
+  color: white;
+}
+
+body, input, button, textarea {
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+}
+
+#page-landing {
   background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  min-height: 100vh;
+  text-align: center;
 }
